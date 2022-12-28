@@ -90,7 +90,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv)
 
   // fetch the response from the server - AI response
-  const response = await fetch('', {
+  const response = await fetch('https://sqltranslate.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
